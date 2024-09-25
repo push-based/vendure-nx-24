@@ -1,0 +1,16 @@
+{
+  "name": "movies-api",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/movies-api",
+  "projectType": "application",
+  "tags": [],
+  "targets": {
+    "serve": {
+      "executor": "nx:run-commands",
+      "options": {
+        "cwd": "apps/movies-api",
+        "command": "json-server --watch movies.json --port 3001",
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "movies",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/movies/src",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project movies --web",
+  "targets": {
+    "deploy": {
+      "command": "docker build -f tools/deploy/frontend.Dockerfile --build-arg='APP_NAME=movies' . -t ghcr.io/push-based/react-movies-app/react-movies-app:dev"
+    }
+  }
+}
