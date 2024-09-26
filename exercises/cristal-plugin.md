@@ -1,4 +1,4 @@
-# Nx Interred Tasks
+# Nx Inferred Tasks
 
 Learn how to create a crystal plugin with Nx.
 
