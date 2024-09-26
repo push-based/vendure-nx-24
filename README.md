@@ -10,7 +10,7 @@
 **Clone and install**
 
 ```bash
-git clone https://github.com/push-based/react-movies-app.git
+git clone https://github.com/push-based/vendure-nx-24
 
 cd react-movies-app
 npm install
